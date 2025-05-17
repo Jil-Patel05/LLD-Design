@@ -1,0 +1,14 @@
+D:\OOPS_Practise\bin\Debug\net8.0\OOPS_Practise.exe
+D:\OOPS_Practise\bin\Debug\net8.0\OOPS_Practise.deps.json
+D:\OOPS_Practise\bin\Debug\net8.0\OOPS_Practise.runtimeconfig.json
+D:\OOPS_Practise\bin\Debug\net8.0\OOPS_Practise.dll
+D:\OOPS_Practise\bin\Debug\net8.0\OOPS_Practise.pdb
+D:\OOPS_Practise\obj\Debug\net8.0\OOPS_Practise.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOPS_Practise\obj\Debug\net8.0\OOPS_Practise.AssemblyInfoInputs.cache
+D:\OOPS_Practise\obj\Debug\net8.0\OOPS_Practise.AssemblyInfo.cs
+D:\OOPS_Practise\obj\Debug\net8.0\OOPS_Practise.csproj.CoreCompileInputs.cache
+D:\OOPS_Practise\obj\Debug\net8.0\OOPS_Practise.dll
+D:\OOPS_Practise\obj\Debug\net8.0\refint\OOPS_Practise.dll
+D:\OOPS_Practise\obj\Debug\net8.0\OOPS_Practise.pdb
+D:\OOPS_Practise\obj\Debug\net8.0\OOPS_Practise.genruntimeconfig.cache
+D:\OOPS_Practise\obj\Debug\net8.0\ref\OOPS_Practise.dll
