@@ -123,12 +123,15 @@ namespace Program
             // v.addContainer(c2);
             // v.pressICButton();
 
+            // ATM Machine
+
+
             // Command design pattern
-            AC ac = new AC();
-            ICommand turnOn = new ACOnCommand(ac);
-            RemoteControl r = new RemoteControl();
-            r.setCommand(turnOn);
-            r.turnOn();
+            // AC ac = new AC();
+            // ICommand turnOn = new ACOnCommand(ac);
+            // RemoteControl r = new RemoteControl();
+            // r.setCommand(turnOn);
+            // r.turnOn();
         }
     }
 
