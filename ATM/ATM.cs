@@ -341,3 +341,8 @@ namespace OOPS_Practise.ATM
 
     }
 }
+
+// map -> Dictionary
+// set -> hashSet(no order maintain),sortedSet
+// pair -> KeyValuePair<T,T>
+// vector -> there are many like List

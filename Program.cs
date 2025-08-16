@@ -5,6 +5,7 @@ using OOPS_Practise.BuilderPattern;
 using OOPS_Practise.ChainOfResponsibilty.LoggingSystem;
 using OOPS_Practise.commandPattern;
 using OOPS_Practise.CompositeDesign;
+using OOPS_Practise.Concurrency;
 using OOPS_Practise.DecoratorDesign;
 using OOPS_Practise.FacadeDesign;
 using OOPS_Practise.FactoryDesign;
@@ -67,11 +68,12 @@ namespace Program
             // Console.WriteLine(n.rollNumber);
 
             // ChainOfResponsibilty pattern/Logging system design Interview
-            // ILogger Logger = new InfoLogger(new DebugLogger(new ErrorLogger(new WarningLogger())));
-            // Logger.log(LogType.INFO, "Hey info");
-            // Logger.log(LogType.DEBUG, "Hey info");
-            // Logger.log(LogType.ERROR, "Hey info");
-            // Logger.log(LogType.WARNING, "Hey info");
+            // Logger logger = Logger.getLoggerInstance();
+            // logger.initializeLogger();
+            // logger.logMessage(LogType.INFO, "Hey info");
+            // logger.logMessage(LogType.DEBUG, "Hey debug");
+            // logger.logMessage(LogType.ERROR, "Hey error");
+            // logger.logMessage(LogType.WARNING, "Hey warning");
 
             // Adapter Pattern
             // PaymentAdapter p = new PaymentAdapter(new Existing());
@@ -132,6 +134,16 @@ namespace Program
             // RemoteControl r = new RemoteControl();
             // r.setCommand(turnOn);
             // r.turnOn();
+
+            // Inventory management
+
+
+            // Parking plot
+
+            // Concurrency
+            Concurrency c = new Concurrency();
+            c.threadUse();
+            c.neeThreadUse();
         }
     }
 
