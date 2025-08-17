@@ -16,9 +16,11 @@ namespace OOPS_Practise.BuilderPattern
     public class StudentBuilder : IStudentBuilder
     {
         protected Student st;
+        // If we don't have to make same variable use Student class
+        // If we don't have to Use this student class then use variables for it
         public StudentBuilder()
         {
-            st = new Student(); 
+            st = new Student();
         }
 
         public StudentBuilder buildAddress(string address)

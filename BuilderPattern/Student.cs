@@ -13,5 +13,6 @@ namespace OOPS_Practise.BuilderPattern
         public string lastName;
         public string address;
         public string subject;
+        
     }
 }
