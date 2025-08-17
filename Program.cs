@@ -117,6 +117,7 @@ namespace Program
             // IFactory f = new Suzuki();
             // Bike b = f.createBike();
             // b.driveBike();
+            // It groups the related object that need to create and create it without knowing it's concrete type.
 
             // Vending machine
             // Container c1 = new Container(new Item("coke", "10 ml", 4, 26), 123456);
