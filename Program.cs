@@ -66,6 +66,7 @@ namespace Program
             // StudentDirector st = new StudentDirector(new StudentBuilder());
             // Student n = st.buildStudent();
             // Console.WriteLine(n.rollNumber);
+            // Here main Files are Builder and building object only, We can directly make object without using StudentDirector
 
             // ChainOfResponsibilty pattern/Logging system design Interview
             // Logger logger = Logger.getLoggerInstance();
