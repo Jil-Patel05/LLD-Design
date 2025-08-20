@@ -1,0 +1,2 @@
+When we use external library or anything else in that case we have existing interface
+and suppose for client we are using another interface in this case we can't change our whole interface for library so in this case we use adapter pattern
