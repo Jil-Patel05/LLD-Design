@@ -1,0 +1,1 @@
+Make proxy of real object when want to control the access of and want to add some extra layer over the real object then use this.
