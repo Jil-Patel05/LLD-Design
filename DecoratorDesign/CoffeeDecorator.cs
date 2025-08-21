@@ -51,4 +51,35 @@ namespace OOPS_Practise.DecoratorDesign
         }
 
     }
+
+    abstract class Imple
+    {
+        public abstract void implement();
+    }
+
+    interface newImple
+    {
+        public void implement();
+    }
+
+    class Im : Imple
+    {
+        public override void implement()
+        {
+
+        }
+
+        public void newOne()
+        {
+            Console.WriteLine("new one is done");
+        }
+    }
+
+    class Im2 : Im
+    {
+        public void newOne()
+        {
+            Console.WriteLine("New one in child");
+        }
+    }
 }
