@@ -7,7 +7,7 @@ namespace OOPS_Practise.StateDesignPattern
 {
     public interface IState
     {
-        public void next();
-        public string getState();// No necessary to implement
+        public void next(Context cs);
+        // public string getState();// No necessary to implement
     }
 }
