@@ -9,6 +9,7 @@ using OOPS_Practise.Concurrency;
 using OOPS_Practise.DecoratorDesign;
 using OOPS_Practise.FacadeDesign;
 using OOPS_Practise.FactoryDesign;
+using OOPS_Practise.IteratorDesign;
 using OOPS_Practise.ObserverPattern;
 using OOPS_Practise.ProxyDesign;
 using OOPS_Practise.SingletonPattern;
@@ -143,9 +144,21 @@ namespace Program
             // Parking plot
 
             // Concurrency
-            Concurrency c = new Concurrency();
-            c.threadUse();
-            c.neeThreadUse();
+            // Concurrency c = new Concurrency();
+            // c.threadUse();
+            // c.neeThreadUse();
+
+            // Iterator Pattern
+
+            ProductsName<string> p = new ProductsName<string>();
+            p.add("One");
+            p.add("Two");
+            Iterators<string> it = p.getIterator();
+            while (it.hasNext())
+            {
+                Console.WriteLine(it.next());
+            }
+            Console.WriteLine("Done");
         }
     }
 
