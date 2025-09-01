@@ -6,6 +6,7 @@ using OOPS_Practise.ChainOfResponsibilty.LoggingSystem;
 using OOPS_Practise.commandPattern;
 using OOPS_Practise.CompositeDesign;
 using OOPS_Practise.Concurrency;
+using OOPS_Practise.CSharpPractise;
 using OOPS_Practise.DecoratorDesign;
 using OOPS_Practise.FacadeDesign;
 using OOPS_Practise.FactoryDesign;
@@ -150,15 +151,18 @@ namespace Program
 
             // Iterator Pattern
 
-            ProductsName<string> p = new ProductsName<string>();
-            p.add("One");
-            p.add("Two");
-            Iterators<string> it = p.getIterator();
-            while (it.hasNext())
-            {
-                Console.WriteLine(it.next());
-            }
-            Console.WriteLine("Done");
+            // ProductsName<string> p = new ProductsName<string>();
+            // p.add("One");
+            // p.add("Two");
+            // Iterators<string> it = p.getIterator();
+            // while (it.hasNext())
+            // {
+            //     Console.WriteLine(it.next());
+            // }
+
+            // C# List practise
+            CShaprtPractise p = new CShaprtPractise();
+            p.listPractise(4);
         }
     }
 
