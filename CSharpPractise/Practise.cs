@@ -117,5 +117,10 @@ namespace OOPS_Practise.CSharpPractise
 
             // KeyValuePair<(int id, string name), int> kv = new KeyValuePair<(int id, string name), int>();
         }
+
+        public void dictionarypractise(int n)
+        {
+            
+        }
     }
 }
