@@ -120,7 +120,12 @@ namespace OOPS_Practise.CSharpPractise
 
         public void dictionarypractise(int n)
         {
-            
+
+        }
+
+        public void setPractise(int n)
+        {
+
         }
     }
 }
