@@ -143,5 +143,16 @@ namespace OOPS_Practise.CSharpPractise
 
             // FrozenSet -> immutable not have Add or modification method only read only loop-ups
         }
+        public void linqPractise()
+        {
+            var people = new List<Person> {
+             new(){Id=1, Name="Alice", Age=30, City="NY"},
+             new(){Id=2, Name="Bob",   Age=25, City="SF"},
+             new(){Id=3, Name="Carol", Age=35, City="NY"},
+             new(){Id=4, Name="Dave",  Age=40, City="LA"}
+            };
+            int id = people.Where((elm) => elm.Id == 1 || elm.Id == 2).Select((elm) => elm.Id).FirstOrDefault();
+        }
     }
+    class Person { public int Id; public string Name; public int Age; public string City; }
 }
