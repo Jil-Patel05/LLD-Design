@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Numerics;
 using System.Threading.Tasks;
@@ -120,12 +122,26 @@ namespace OOPS_Practise.CSharpPractise
 
         public void dictionarypractise(int n)
         {
-
+            Dictionary<int, int> d = new Dictionary<int, int>(); // Unordered_map of c++
+            SortedDictionary<int, int> d2 = new SortedDictionary<int, int>(); // map of c++
+            ConcurrentDictionary<int, int> d1 = new ConcurrentDictionary<int, int>(); // Used for multi thread operation(Limited operations are thread safe use it only)
         }
 
         public void setPractise(int n)
         {
+            HashSet<int> s1 = new HashSet<int>(); // unordered_set of c++
+            SortedSet<int> s2 = new SortedSet<int>(); // set of c++
 
+            // ImmutableHashSet<int> s3 = new ImmutableHashSet<int>(); // Wrong
+            // ImmutableSortedSet<int> s4 = new ImmutableSortedSet<int>(); // Wrong
+
+            ImmutableHashSet<int> s3 = ImmutableHashSet.Create<int>(1, 2, 3);
+            ImmutableHashSet<int> s4 = s3.Add(4);
+
+            // Unlike HashSet<T>, ImmutableHashSet<T> does not have a public constructor.
+            // Instead, it uses static factory methods to create instances.
+
+            // FrozenSet -> immutable not have Add or modification method only read only loop-ups
         }
     }
 }
